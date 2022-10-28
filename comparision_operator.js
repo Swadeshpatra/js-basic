@@ -15,3 +15,4 @@ console.log(2==='2');
 
 console.log(2!=='2');
 console.log(2!==2);
+// comparision operator are used in decision making and loops
