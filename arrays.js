@@ -24,7 +24,25 @@ console.log(numberArray);
  
 // how to find the last elements of an Array
 
-const a = [2,3,6,5,7,9,8];
-const arrlength = a.length;
-const lastelement = a[arrlength - 1];
+const arrnum = [2,3,6,5,7,9,8];
+const arrlength = arrnum.length;
+const lastelement = arrnum[arrlength - 1];
+console.log(lastelement);
+
+//  when there is no element there inside an arrray and we ask that index value then it will return undefined
+
+// concatenation
+
+const arraynum1 = [1,2,3,4,5,6];
+const arraynum2 = ["raju","ranu","sanu"];
+console.log(arraynum2.concat(arraynum1));
+ 
+// indexOf
+
+const array1 = [1,2,3,"raju"];
+console.log(array1.indexOf("raju"));
+// when we fetch index value of something  which is not there inside the class then it will return '-1' always
+
+// incase of fetching a  value which is repeated  then arrray will return the first index of that value
+
 
