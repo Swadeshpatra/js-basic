@@ -45,4 +45,47 @@ console.log(array1.indexOf("raju"));
 
 // incase of fetching a  value which is repeated  then arrray will return the first index of that value
 
+// Sorting
+let action = ['sleep','eat','dance','run'];
+console.log(action.sort());
+let age = [25,23,15,89,65,34];
+console.log(age.sort());
+// Slice
 
+const arrb = ["friendship",25,36];
+console.log(arrb.length);
+let c = arrb.slice(0,2);
+console.log(c);
+
+let arry = ['h','e'];
+arry.name = 'raja';
+console.log(arry);
+console.log(arry.name);
+console.log(arry['name']);
+console.log(arry.name.length);
+
+// multidimensional array
+
+let x = [
+    ['Jack', 24],
+    ['Sara', 23],
+    ['Peter', 24]
+    ];
+    
+    // access the first item
+    console.log(x[0]); // ["Jack", 24]
+    
+    // access the first item of the first inner array
+    console.log(x[0][0]); // Jack
+    
+    // access the second item of the third inner array
+    console.log(x[2][1]); // 24
+
+    // Adding Element to the Outer Array
+
+    let studentdata = [['jack',24],['raja',29]];
+    studentdata.push(['stio',34];
+    console.log(studentdata);    
+
+
+    
