@@ -83,9 +83,15 @@ let x = [
 
     // Adding Element to the Outer Array
 
-    let studentdata = [['jack',24],['raja',29]];
-    studentdata.push(['stio',34];
-    console.log(studentdata);    
+    // let studentdata = [['jack',24],['raja',29]];
+    // studentdata.push(['stio',34];
+    // console.log(studentdata); 
+    
+    // ternary operator / conditional operator
+
+    let ag = 12;
+    let drink = ag >=10 ? "milk" : "coffee";
+    console.log(drink);
 
 
     
