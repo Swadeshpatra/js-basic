@@ -1,3 +1,7 @@
+// A for loop is usually used when the number of iterations is known. For example
+
+
+
 // program to display text 5 times
 const n = 5;
 
