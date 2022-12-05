@@ -1,3 +1,6 @@
+// while and do...while loops are usually used when the number of iterations are unknown. For example,
+
+
 let i = 0;
 while(i <=4){
     console.log(i);
